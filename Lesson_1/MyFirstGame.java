@@ -5,12 +5,16 @@ public class MyFirstGame {
 
 	public static void numbCheck(int secretNumb, int numb) {
 			if (numb == secretNumb) {
-				System.out.println("You win");
-			} else if (numb < secretNumb) {
-					System.out.println("You number is less");
-				} else {
-					System.out.println("You number is greater");
+				System.out.println("You win its " + numb);
+			} else {
+				while (secretNumb != numb) {
+					if (secretNumb < numb) {
+						numb--;
+					} else {
+						numb++;
+					}
 				}
+			System.out.println("You win its " + numb);
 			}
 	}
 }
