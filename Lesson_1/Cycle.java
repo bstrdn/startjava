@@ -12,10 +12,12 @@ public class Cycle {
 		}
 		System.out.println();
 
+		int summ = 0;
 		int n = 9;
 		do {
 			n += 2;
-			System.out.print(n +" ");
+			summ += n;
 		} while (n < 19);
+		System.out.print(summ);
 	}
 }
