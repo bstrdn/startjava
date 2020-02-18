@@ -1,3 +1,5 @@
+package com.startjava.lesson_1.calculator;
+
 public class Calculator {
 	public static void main(String[] args) {
 		System.out.println(calculating(3, 5,'*'));

@@ -1,3 +1,5 @@
+package com.startjava.lesson2_3.game;
+
 public class GuessNumber {
 
 	private int secretNumb;
